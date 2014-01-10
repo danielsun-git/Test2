@@ -1,14 +1,13 @@
 package  
 {
-	import flash.net.URLRequest;
+	import flash.display.MovieClip;
 	import flash.events.Event;
+	import flash.net.URLRequest;
 
 	import accordion.AccordionMenu;
 
-	import flash.display.MovieClip;
-
 	/**
-	 * @author danielsun
+	 * @author danielsun (danielsun@gmail.com)
 	 */
 	public class DocumentClass extends MovieClip 
 	{
@@ -34,7 +33,6 @@ package
 
 		private function launchSection(event:Event):void
 		{
-			
 			trace('Switching to: ', newAccord.itemOpen);
 		}
 	}
