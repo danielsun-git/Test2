@@ -33,7 +33,7 @@ package accordion
 			*/
 			_itemList = [];
 			
-			create();
+			create(); //this call the creation method
 		}
 
 		private function create():void
@@ -122,7 +122,7 @@ package accordion
 		private function changeSection(event:Event):void
 		{
 			itemOpen = _itemArray[event.target.id - 1].name;
-			//trace('Switching to', _itemArray[event.target.id-1].name);
+			trace('Switching to', _itemArray[event.target.id-1].name); // logging it now
 			this.dispatchEvent(new Event(AccordionMenu.CALL_BACK));
 		}
 
