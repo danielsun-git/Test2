@@ -7,6 +7,7 @@ package accordion
 
 	/**
 	 * @author danielsun
+	 * @version 1.0
 	 */
 	public class AccordionMenu extends Sprite 
 	{
