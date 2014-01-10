@@ -22,13 +22,13 @@ package accordion
 			_padding = padding;
 			_itemArray = new Array();
 			_itemArray = itemArray;
-			/*
 			_itemArray[0] = {name:"ANTROPIZZAZIONE", url:new URLRequest("img/1.jpg"), id:1};
 			_itemArray[1] = {name:"AMBIENTE", url:new URLRequest("img/2.jpg"), id:2};
 			_itemArray[2] = {name:"STORIA", url:new URLRequest("img/3.jpg"), id:3};
 			_itemArray[3] = {name:"TRADIZIONI POPOLARI", url:new URLRequest("img/4.jpg"), id:4};
 			_itemArray[4] = {name:"MONUMENTI", url:new URLRequest("img/5.jpg"), id:5};
 			_itemArray[5] = {name:"APPUNTAMENTI", url:new URLRequest("img/6.jpg"), id:6};
+			/*
 			*/
 			_itemList = [];
 			
@@ -130,6 +130,9 @@ package accordion
 			return _padding;
 		}
 
+		/*
+		* setta il padding
+		*/
 		public function set padding(padding:Number):void
 		{
 			_padding = padding;
